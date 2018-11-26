@@ -6,5 +6,9 @@
     </head>
     <body>
 
+    	{% for restaurant in my_list %}
+      {{restaurant.restaurant_name}} - {{restaurant.food_type}}
+    {% endfor %}
+
     </body>
 </html>
